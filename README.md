@@ -386,7 +386,28 @@ Use this to qualitatively inspect how well the model is doing, especially on the
 
 ---
 
-## 10. Inspecting mask distribution: `scripts/analyze_masks.py`
+## 10. Qualitative examples
+
+Some example predictions from the model on held‑out images are shown below.
+
+<p align="center">
+  <img src="Figure_1.png" width="45%">
+  <img src="Figure_2.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="Figure_3.png" width="45%">
+  <img src="Figure_4.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="Figure_5.png" width="45%">
+  <img src="Figure_6.png" width="45%">
+</p>
+
+---
+
+## 11. Inspecting mask distribution: `scripts/analyze_masks.py`
 
 Run:
 
@@ -409,7 +430,7 @@ You can re‑run this after updating or expanding your manual masks to see how y
 
 ---
 
-## 11. Quick smoke test of the dataloader: `scripts/test_dataloader.py`
+## 12. Quick smoke test of the dataloader: `scripts/test_dataloader.py`
 
 After setting up data and splits, you can quickly ensure that the dataset and dataloader work:
 
@@ -429,7 +450,7 @@ If this fails, fix the data layout / filenames before starting long trainings.
 
 ---
 
-## 12. Tips and common gotchas
+## 13. Tips and common gotchas
 
 - **Virtualenv not tracked**:
   - The repo ignores `.venv`, `.venv310`, etc., on purpose. Always create your own environment.
@@ -445,7 +466,7 @@ If this fails, fix the data layout / filenames before starting long trainings.
 
 ---
 
-## 13. Minimal “getting started” checklist
+## 14. Minimal “getting started” checklist
 
 If you have a new machine and clone this repo, a typical run might look like:
 
